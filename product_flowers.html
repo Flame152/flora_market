@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Гладиолус</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css?_v=20251021151404">
+	<link rel="stylesheet" href="css/style.min.css?_v=20251021151404">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container">
+				<div class="header__menu menu">
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+					<div class="menu__row">
+						<nav class="menu__body">
+							<ul class="menu__list">
+								<li class="menu__item"><a href="catalog.html" class="menu__link">Каталог</a></li>
+								<li class="menu__item"><a href="javascript:void(0)" class="menu__link">О компании</a></li>
+								<li class="menu__item"><a href="javascript:void(0)" class="menu__link">Способы оплаты</a></li>
+								<li class="menu__item"><a href="javascript:void(0)" class="menu__link">Доставка</a></li>
+								<li class="menu__item"><a href="javascript:void(0)" class="menu__link">Отзывы</a></li>
+								<li class="menu__item"><a href="javascript:void(0)" class="menu__link">Дисконтные карты</a></li>
+								<li class="menu__item"><a href="javascript:void(0)" class="menu__link">Видео</a></li>
+								<li class="menu__item"><a href="javascript:void(0)" class="menu__link">Контакты</a></li>
+							</ul>
+						</nav>
+						<div class="center-header">
+							<div class="center-header__info">
+								<div class="center-header__phones">
+									<a href="tel:+79651511839" class="center-header__phone">+7 965 151 18 39</a>
+									<a href="tel:+79161221898" class="center-header__phone">+7 916 122 18 98</a>
+								</div>
+								<div class="center-header__hours-addres">
+									<div class="center-header__hours">Ждем вас с 8:00 до 22:00</div>
+									<a href="#" class="center-header__addres">Адреса цветочных центров</a>
+								</div>
+							</div>
+						</div>
+						<div class="actions-user">
+							<a href="javascript:void(0)" class="actions-user__sign-in">
+								<div class="actions-user__icon icon-svg">
+									<img src="img/header_footer/user.svg" alt="user">
+								</div>
+								<span class="actions-user__text">Войти</span>
+							</a>
+							<a href="javascript:void(0)" class="actions-user__sign-up">
+								<div class="actions-user__icon icon-svg">
+									<img src="img/header_footer/sign_in.svg" alt="sign_in">
+								</div>
+								<span class="actions-user__text">Регистрация</span>
+							</a>
+						</div>
+					</div>
+					<div class="header__center center-header">
+						<a href="index.html" class="center-header__logo">
+							<div class="center-header__image">
+								<picture><source srcset="img/header_footer/logo.webp" type="image/webp"><img src="img/header_footer/logo.png" alt="logo" loading="lazy"></picture>
+							</div>
+							<span class="center-header__subtitle-logo">сеть цветочных оптово-розничных центров</span>
+						</a>
+						<div class="center-header__info">
+							<div class="center-header__phones">
+								<a href="tel:+70000000000" class="center-header__phone">+7 000 000 00 00</a>
+								<a href="tel:+75555555555" class="center-header__phone">+7 555 555 55 55</a>
+							</div>
+							<div class="center-header__hours-addres">
+								<div class="center-header__hours">Ждем вас с 8:00 до 22:00</div>
+								<a href="#" class="center-header__addres">Адреса цветочных центров</a>
+							</div>
+						</div>
+						<div class="center-header__links">
+							<a href="javascript:void(0)" target="_blank" class="center-header__favourites">
+								<div class="center-header__icon">
+									<svg width="29" height="25" viewBox="0 0 29 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<path d="M25.3071 1.67024C22.2993 -0.845383 17.8696 -0.46257 15.0805 2.43587L14.0415 3.52962L12.9477 2.43587C10.7055 0.138992 6.22115 -1.28288 2.72115 1.67024C-0.724163 4.62337 -0.888226 9.87337 2.17427 13.0452L12.7836 23.9827C13.1118 24.3109 13.5493 24.4749 13.9868 24.4749C14.479 24.4749 14.9165 24.3109 15.2446 23.9827L25.854 13.0452C28.9165 9.87337 28.7524 4.62337 25.3071 1.67024Z" fill="#FF5555" />
+										<path d="M25.3071 1.67024C22.2993 -0.845383 17.8696 -0.46257 15.0805 2.43587L14.0415 3.52962L12.9477 2.43587C10.7055 0.138992 6.22115 -1.28288 2.72115 1.67024C-0.724163 4.62337 -0.888226 9.87337 2.17427 13.0452L12.7836 23.9827C13.1118 24.3109 13.5493 24.4749 13.9868 24.4749C14.479 24.4749 14.9165 24.3109 15.2446 23.9827L25.854 13.0452C28.9165 9.87337 28.7524 4.62337 25.3071 1.67024ZM24.5961 11.8421L14.0415 22.7796L3.43209 11.8421C1.35396 9.65462 0.916462 5.55305 3.86959 3.03743C6.8774 0.467117 10.3774 2.32649 11.6899 3.63899L14.0415 6.04524L16.3383 3.63899C17.5961 2.32649 21.1508 0.467117 24.1586 3.03743C27.1118 5.55305 26.6743 9.65462 24.5961 11.8421Z" fill="#FF5555" />
+									</svg>
+								</div>
+								<span>Избранное</span>
+							</a>
+							<a href="javascript:void(0)" target="_blank" class="center-header__backet">
+								<div class="center-header__icon icon-svg">
+									<img src="img/header_footer/backet.svg" alt="backet">
+								</div>
+								<span class="center-header__quantity">0</span>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+			<nav class="bottom-nav">
+				<ul class="bottom-nav__links">
+					<li><a href="javascript:void(0)" class="bottom-nav__link" target="_blank">Букеты</a></li>
+					<li><a href="javascript:void(0)" class="bottom-nav__link" target="_blank">Розы</a></li>
+					<li><a href="javascript:void(0)" class="bottom-nav__link" target="_blank">Цветы</a></li>
+					<li><a href="javascript:void(0)" class="bottom-nav__link" target="_blank">Горшечные растения</a></li>
+					<li><a href="javascript:void(0)" class="bottom-nav__link" target="_blank">Повод</a></li>
+					<li><a href="javascript:void(0)" class="bottom-nav__link" target="_blank">Подарки</a></li>
+					<li><a href="javascript:void(0)" class="bottom-nav__link" target="_blank">Акции</a></li>
+				</ul>
+			</nav>
+		</header>
+		<main class="page">
+			<div class="crumbs">
+				<div class="crumbs__container">
+					<a href="#home">Главная</a>
+					<a href="javascript:void(0)">Букеты</a>
+					<span>«Тутти фрутти»</span>
+				</div>
+			</div>
+			<!-- Карточка товара -->
+			<div class="product">
+				<div class="product__container">
+					<div class="product__row">
+						<div class="product__left">
+							<!-- Оболочка слайдера -->
+							<div class="product__slider-big swiper">
+								<!-- Двигающееся часть слайдера -->
+								<div class="product__wrapper swiper-wrapper">
+									<!-- Слайд -->
+									<div class="product__slide swiper-slide">
+										<picture><source srcset="img/product_flowers/photo_1.webp" type="image/webp"><img src="img/product_flowers/photo_1.jpg" alt="photo" loading="lazy"></picture>
+									</div>
+									<div class="product__slide swiper-slide">
+										<picture><source srcset="img/product_flowers/photo_2.webp" type="image/webp"><img src="img/product_flowers/photo_2.jpg" alt="photo" loading="lazy"></picture>
+									</div>
+									<div class="product__slide swiper-slide">
+										<picture><source srcset="img/product_flowers/photo_3.webp" type="image/webp"><img src="img/product_flowers/photo_3.jpg" alt="photo" loading="lazy"></picture>
+									</div>
+									<div class="product__slide swiper-slide">
+										<picture><source srcset="img/product_flowers/photo_4.webp" type="image/webp"><img src="img/product_flowers/photo_4.jpg" alt="photo" loading="lazy"></picture>
+									</div>
+									<div class="product__slide swiper-slide">
+										<picture><source srcset="img/product_flowers/photo_1.webp" type="image/webp"><img src="img/product_flowers/photo_1.jpg" alt="photo" loading="lazy"></picture>
+									</div>
+									<div class="product__slide swiper-slide">
+										<picture><source srcset="img/product_flowers/photo_2.webp" type="image/webp"><img src="img/product_flowers/photo_2.jpg" alt="photo" loading="lazy"></picture>
+									</div>
+								</div>
+							</div>
+							<div class="product__slide-container">
+								<div class="product__slider swiper">
+									<!-- Двигающееся часть слайдера -->
+									<div class="product__wrapper swiper-wrapper">
+										<!-- Слайд -->
+										<div class="product__slide swiper-slide">
+											<picture><source srcset="img/product_flowers/photo_1.webp" type="image/webp"><img src="img/product_flowers/photo_1.jpg" alt="photo" loading="lazy"></picture>
+										</div>
+										<div class="product__slide swiper-slide">
+											<picture><source srcset="img/product_flowers/photo_2.webp" type="image/webp"><img src="img/product_flowers/photo_2.jpg" alt="photo" loading="lazy"></picture>
+										</div>
+										<div class="product__slide swiper-slide">
+											<picture><source srcset="img/product_flowers/photo_3.webp" type="image/webp"><img src="img/product_flowers/photo_3.jpg" alt="photo" loading="lazy"></picture>
+										</div>
+										<div class="product__slide swiper-slide">
+											<picture><source srcset="img/product_flowers/photo_4.webp" type="image/webp"><img src="img/product_flowers/photo_4.jpg" alt="photo" loading="lazy"></picture>
+										</div>
+										<div class="product__slide swiper-slide">
+											<picture><source srcset="img/product_flowers/photo_1.webp" type="image/webp"><img src="img/product_flowers/photo_1.jpg" alt="photo" loading="lazy"></picture>
+										</div>
+										<div class="product__slide swiper-slide">
+											<picture><source srcset="img/product_flowers/photo_2.webp" type="image/webp"><img src="img/product_flowers/photo_2.jpg" alt="photo" loading="lazy"></picture>
+										</div>
+									</div>
+								</div>
+								<!-- Если нужна навигация (влево/вправо) -->
+								<button type="button" class="product-button-prev"></button>
+								<button type="button" class="product-button-next"></button>
+							</div>
+						</div>
+						<div class="product__info info-product">
+							<div class="info-product__top">
+								<div class="info-product__title">
+									<h1>Гладиолус</h1>
+								</div>
+								<div class="info-product__sticker-price">
+									<div class="info-product__price">
+										<ins>145 ₽</ins>
+										<del>200 ₽</del>
+									</div>
+									<div class="sticker sticker_stock">Акция</div>
+								</div>
+								<div class="info-product__control">
+									<form action="#" class="info-product__quantity-btn">
+										<div class="quantity">
+											<input class="quantity__down" type="button" value="-" data-for="quantity1">
+											<input class="quantity__number" type="number" id="quantity1" value="1" min="1">
+											<input class="quantity__up" type="button" value="+" data-for="quantity1">
+										</div>
+										<button class="info-product__btn">В корзину</button>
+									</form>
+									<button class="info-product__favourites-btn">
+										<svg width="29" height="25" viewBox="0 0 29 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+											<path d="M25.3071 1.67024C22.2993 -0.845383 17.8696 -0.46257 15.0805 2.43587L14.0415 3.52962L12.9477 2.43587C10.7055 0.138992 6.22115 -1.28288 2.72115 1.67024C-0.724163 4.62337 -0.888226 9.87337 2.17427 13.0452L12.7836 23.9827C13.1118 24.3109 13.5493 24.4749 13.9868 24.4749C14.479 24.4749 14.9165 24.3109 15.2446 23.9827L25.854 13.0452C28.9165 9.87337 28.7524 4.62337 25.3071 1.67024Z" fill="#FF5555" />
+											<path d="M25.3071 1.67024C22.2993 -0.845383 17.8696 -0.46257 15.0805 2.43587L14.0415 3.52962L12.9477 2.43587C10.7055 0.138992 6.22115 -1.28288 2.72115 1.67024C-0.724163 4.62337 -0.888226 9.87337 2.17427 13.0452L12.7836 23.9827C13.1118 24.3109 13.5493 24.4749 13.9868 24.4749C14.479 24.4749 14.9165 24.3109 15.2446 23.9827L25.854 13.0452C28.9165 9.87337 28.7524 4.62337 25.3071 1.67024ZM24.5961 11.8421L14.0415 22.7796L3.43209 11.8421C1.35396 9.65462 0.916462 5.55305 3.86959 3.03743C6.8774 0.467117 10.3774 2.32649 11.6899 3.63899L14.0415 6.04524L16.3383 3.63899C17.5961 2.32649 21.1508 0.467117 24.1586 3.03743C27.1118 5.55305 26.6743 9.65462 24.5961 11.8421Z" fill="#FFFFFF" />
+										</svg>
+									</button>
+								</div>
+								<div class="line-product"></div>
+							</div>
+							<div class="info-product__center">
+								<button class="info-product__btn-step">Собрать букет +20%</button>
+								<button class="info-product__btn-step">Добавить зелень</button>
+							</div>
+							<div class="description">
+								<div class="description__item">
+									<div class="description__row">
+										<div class="description__title-subtitle">
+											<b>Пример упаковки букетов</b>
+											<span>Цена цветка указана без стоимости оформления в букет, стоимость оформления 20% от стоимости заказа.</span>
+										</div>
+										<div class="description__icon">
+											<img src="img/common/question.svg" alt="вопрос" loading="lazy">
+											<div class="description__help">
+												<span>Цена цветка указана без стоимости оформления в букет, стоимость оформления 20% от стоимости заказа.</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="description__item">
+									<div class="description__row">
+										<b>Как оформить заказ?</b>
+										<div class="description__icon">
+											<img src="img/common/question.svg" alt="вопрос" loading="lazy">
+											<div class="description__help">
+												<span>1.Выберите товары и добавьте их в корзину.</span>
+												<span>2.Перейдите в раздел Корзина и нажмите Перейти к оформлению.</span>
+												<span>3.Укажите ваши данные.</span>
+												<span>4.Выберите способ доставки и укажите адрес.</span>
+												<span>5.Выберите способ оплаты и нажмите Оплатить.</span>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="description__item">
+									<div class="description__row">
+										<b>Способы оплаты</b>
+										<ul class="description__payment">
+											<li>
+												<img src="img/product/money.svg" alt="Наличными" loading="lazy">
+												<span>Наличными</span>
+											</li>
+											<li>
+												<img src="img/product/card.svg" alt="Картой" loading="lazy">
+												<span>Картой</span>
+											</li>
+											<li>
+												<img src="img/product/university.svg" alt="На р/с" loading="lazy">
+												<span>На р/с</span>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Карточка товара - end -->
+			<!-- Вам может понравиться -->
+			<section class="compilation">
+				<div class="compilation__container">
+					<div class="compilation__title title title_center">
+						<h2>Вам может понравиться</h2>
+					</div>
+					<div class="compilation__row">
+						<a href="product_bouquets.html" class="card-mini-link">
+							<article class="card-mini">
+								<div class="card-mini__image">
+									<picture><source srcset="img/discount/bouquet_1.webp" type="image/webp"><img src="img/discount/bouquet_1.jpg" alt="Букет" loading="lazy"></picture>
+									<div class="sticker-wrapper">
+										<div class="sticker sticker_new">Новинка</div>
+									</div>
+								</div>
+								<div class="card-mini__body">
+									<div class="card-mini__price">
+										<ins>1 600 ₽</ins>
+									</div>
+									<div class="card-mini__name">
+										<h3>Минибукет 1600-6</h3>
+									</div>
+								</div>
+							</article>
+						</a>
+						<a href="product_flowers.html" class="card-mini-link">
+							<article class="card-mini">
+								<div class="card-mini__image">
+									<picture><source srcset="img/hit/bouquet_6.webp" type="image/webp"><img src="img/hit/bouquet_6.jpg" alt="Букет" loading="lazy"></picture>
+								</div>
+								<div class="card-mini__body">
+									<div class="card-mini__price">
+										<ins>99 ₽</ins>
+									</div>
+									<div class="card-mini__name">
+										<h3>Нобилис</h3>
+									</div>
+								</div>
+							</article>
+						</a>
+						<a href="javascript:void(0)" class="card-mini-link">
+							<article class="card-mini">
+								<div class="card-mini__image">
+									<picture><source srcset="img/hit/bouquet_3.webp" type="image/webp"><img src="img/hit/bouquet_3.jpg" alt="Букет" loading="lazy"></picture>
+									<div class="sticker-wrapper">
+										<div class="sticker sticker_stock">Акция</div>
+									</div>
+								</div>
+								<div class="card-mini__body">
+									<div class="card-mini__price">
+										<ins>5 900 ₽</ins>
+										<del>6 600 ₽</del>
+									</div>
+									<div class="card-mini__name">
+										<h3>Роза Freedom 51 шт.</h3>
+									</div>
+								</div>
+							</article>
+						</a>
+						<a href="javascript:void(0)" class="card-mini-link">
+							<article class="card-mini">
+								<div class="card-mini__image">
+									<picture><source srcset="img/discount/bouquet_5.webp" type="image/webp"><img src="img/discount/bouquet_5.jpg" alt="Букет" loading="lazy"></picture>
+									<div class="sticker-wrapper">
+										<div class="sticker sticker_stock">Акция</div>
+									</div>
+								</div>
+								<div class="card-mini__body">
+									<div class="card-mini__price">
+										<ins>1 400 ₽</ins>
+										<del>1 600 ₽</del>
+									</div>
+									<div class="card-mini__name">
+										<h3>Минибукет 1400-2</h3>
+									</div>
+								</div>
+							</article>
+						</a>
+					</div>
+					<div class="wrapper-button">
+						<a href="catalog.html" target="_blank" class="button button_gradient"><span>Перейти в
+								каталог</span></a>
+					</div>
+				</div>
+			</section>
+			<!-- Вам может понравиться - end -->
+			<!-- Почему мы?-->
+			<div class="why-us">
+				<div class="why-us__container">
+					<div class="why-us__title title title_center">
+						<h2>Почему мы?</h2>
+					</div>
+					<div class="why-us__row">
+						<div class="why-us__card">
+							<div class="why-us__icon">
+								<div class="why-us__icon">
+									<img src="img/why_us/delivery.svg" alt="delivery" loading="lazy">
+								</div>
+							</div>
+							<div class="why-us__text">
+								<p>Доставим <br> в срок</p>
+							</div>
+						</div>
+						<div class="why-us__card">
+							<div class="why-us__icon">
+								<div class="why-us__icon">
+									<img src="img/why_us/plants.svg" alt="plants" loading="lazy">
+								</div>
+							</div>
+							<div class="why-us__text">
+								<p>Цветы простоят <br> от 6 дней</p>
+							</div>
+						</div>
+						<div class="why-us__card">
+							<div class="why-us__icon">
+								<div class="why-us__icon">
+									<img src="img/why_us/discount.svg" alt="discount" loading="lazy">
+								</div>
+							</div>
+							<div class="why-us__text">
+								<p>Возвращаем до <br> 15% бонусами</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Почему мы? - end -->
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__row">
+					<div class="footer__info">
+						<a href="index.html" class="footer__logo">
+							<picture><source srcset="img/header_footer/logo_white.webp" type="image/webp"><img src="img/header_footer/logo_white.png" alt="logo" loading="lazy"></picture>
+							<div class="footer__subtitle-logo">© ФлораМаркт, 2015-2025</div>
+						</a>
+						<div class="footer__phones phones">
+							<div class="phones__icon-phone">
+								<img src="img/header_footer/phone.svg" alt="phone">
+							</div>
+							<div class="phones__items">
+								<a href="tel:+70000000000">+7 000 000 00 00</a>
+								<a href="tel:+75555555555">+7 555 555 55 55</a>
+							</div>
+						</div>
+						<div class="footer__adress-policy">
+							<a href="javascript:void(0)">Адреса цветочных центров</a>
+							<a href="javascript:void(0)">Политика конфиденциальности</a>
+						</div>
+					</div>
+					<div class="footer__columns">
+						<ul class="footer__list">
+							<li class="footer__item"><a href="catalog.html">Каталог</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">О компании</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Способы оплаты</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Доставка</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Отзывы</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Дисконтные карты</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Видео</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Контакты</a></li>
+						</ul>
+						<ul class="footer__list">
+							<li class="footer__item"><a href="javascript:void(0)">Букеты</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Розы</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Цветы</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Горшечные растения</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Букет невесты</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Композиции на стол</a></li>
+						</ul>
+						<ul class="footer__list footer__list-mobile">
+							<li class="footer__item"><a href="javascript:void(0)">Украшение залов</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Игрушки</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Торты</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Открытки</a></li>
+							<li class="footer__item"><a href="javascript:void(0)">Авторские работы</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js?_v=20251021151404"></script>
+	<script src="js/app.min.js?_v=20251021151404"></script>
+</body>
+
+</html>
